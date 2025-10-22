@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/86411f98ac.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <article data-testid="test-profile-card">
+        <div class="container">
+            <div class="profile-header">
+                <figure data-testid="test-user-avatar">
+                    <img src="./image/LinkedIn photo.png" alt="Picture of Ronald">
+                </figure>
+
+                <div class="profile-info">
+                    <h2 data-testid="test-user-name">Ronalddev</h2>
+                    <div class="time-container">
+                        <span>Current Time(ms):</span>
+                        <script src="index.js">
+
+                        </script>
+                        <span data-testid="test-user-time"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p data-testid="test-user-bio">Fullstack developer who loves to build responsive and accessible web applications. Continuously learning frontend and backend technologies for the creation of impactful digital experiences.
+        </p>
+
+        <nav data-testid="test-user-social-links">
+            <h4>Let's Connect</h4>
+            <ul>
+                <li>
+                    <a href="https://github.com/RonaldBBK"><i class="fa-brands fa-github"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/ronald-ekpe-91a782213/"><i class="fa-brands fa-linkedin"></i></a>
+                </li>
+                <li>
+                    <a href="https://x.com/HellaGreaze"><i class="fa-brands fa-x-twitter"></i></a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="list">
+            <section data-testid="test-user-hobbies">
+                <h4>Hobbies</h4>
+                    <li>Coding</li>
+                    <li>Watching Movies</li>
+                    <li>Listening to music</li>
+            </section>
+            <section data-testid="test-user-dislikes">
+                <h4>Dislikes</h4>
+                    <li>Noise</li>
+                    <li>Smoking</li>
+            </section>
+        </div>
+    </article>
+    <script src="index.js"></script>
+</body>
+</html>
